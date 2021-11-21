@@ -2,6 +2,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist",
+    "declaration": true,
+    "declarationDir": "./@types",
     "skipLibCheck": true, // npm_modules error
     "module": "commonjs", // TS build doesn't add .js to imported paths
     "moduleResolution": "node",

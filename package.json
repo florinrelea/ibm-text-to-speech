@@ -1,14 +1,23 @@
 {
   "name": "ibm-text-to-speech",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Use IBM Watson Text To Speech in nodejs",
+  "main": "dist/index.js",
+  "types": "@types",
   "scripts": {
     "build": "tsc",
     "dev": "node ./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "url",
+    "url": "https://github.com/florinrelea/ibm-text-to-speech"
+  },
+  "keywords": [
+    "IBM",
+    "IBM Watson nodejs",
+    "text to speech nodejs"
+  ],
+  "author": "Florin Relea",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.11.9",
