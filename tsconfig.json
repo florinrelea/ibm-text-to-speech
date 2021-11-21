@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "skipLibCheck": true, // npm_modules error
+    "module": "commonjs", // TS build doesn't add .js to imported paths
+    "moduleResolution": "node",
+    "preserveConstEnums": true, // implicitly has an 'any' type
+    "allowSyntheticDefaultImports": true, // export default error
+    "esModuleInterop": true,
+    "noUnusedLocals": false,
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": [
+    "./src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.js"
+  ],
+}
