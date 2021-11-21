@@ -1,4 +1,17 @@
-## Usage
+# Import
+
+### Javascript
+```
+const { IBMWatson } = require('ibm-text-to-speech')
+```
+
+### Typescript
+```
+import { IBMWatson } from 'ibm-text-to-speech'
+```
+
+
+# Usage
 
 ```
  const watson = new IBMWatson({
@@ -9,7 +22,8 @@
 try {
   await watson.textToSpeech({
     text: 'Just some text here.',
-    voice: 'en-US_MichaelV3Voice'
+    voice: 'en-US_MichaelV3Voice',
+    outputFile: './text_to_speech.wav',
   })
 } catch (e) {
   console.error(e)
