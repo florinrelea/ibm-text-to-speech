@@ -2,8 +2,8 @@
   "name": "ibm-text-to-speech",
   "version": "1.0.0",
   "description": "Use IBM Watson Text To Speech in nodejs",
-  "main": "dist/index.js",
-  "types": "@types",
+  "main": "./dist/index.js",
+  "types": "./@types",
   "scripts": {
     "build": "tsc",
     "dev": "node ./dist/index.js"
